@@ -1,0 +1,62 @@
+body {
+    padding: 20px;
+    background-color: white; 
+}
+
+#content {
+    padding-bottom: 10px;
+}
+p{
+    font-weight: bolder;
+}
+
+
+table {
+    background-color: #C5D6C6;
+    border-spacing: 0;
+    border: 2px solid red;
+}
+
+td {
+    border: 1px solid #F1F5DA;
+    border-radius: 50%; 
+    width: 10px;
+    height: 10px;
+}
+
+#gen, #live{
+    
+    font-weight: bolder;
+}
+
+span {
+    color: #222;
+}
+#randomm,
+#gun,
+#osci2,
+#osci1,
+#step,
+#still,
+#clear,
+#random {
+    padding: .75em;
+    border-radius: 5px;
+    border: none;    
+    background: red;
+}
+#start, #reset, #step23 {
+    padding: .75em;
+    border-radius: 5px;
+    border: none;    
+    background: green;
+}
+
+td.dead {
+    background-color: lightgreen;
+}
+
+td.live {
+    background-color: black;
+    border-radius: 10px;
+}
